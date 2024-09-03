@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(./assets/violet-flowers-closeup-macro-water-drops-dew-drops-blossom-5725x3898-4640.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  min-height: 100vh;
+}
+.foam {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  width: fit-content;
+  border: 1px solid silver;
+  width: 420px;
+  gap: 10px;
+  padding: 30px 40px;
+  color: #fff;
+  backdrop-filter: blur(5px);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: auto;
+}
+
+.name {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.button {
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 40px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button {
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/violet-flowers-closeup-macro-water-drops-dew-drops-blossom-5725x3898-4640.jpg);
+  background-size: cover;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+a:hover {
+  color: red;
+  font-weight: 600;
+}
+button:hover {
+  transform: scale(1.1);
+}
+.task {
+  font-size: xx-large;
+}
+.tasktodo {
+    display: flex;
+    gap: 90px;
+    align-items: center;
+}
+.taskbtn {
+    width: 50px;
+    height: 50px;
+}
+.todobtn{
+    display: flex;
+    justify-content: space-around;
+}
+i{
+    color: #fff;
+}
